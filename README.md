@@ -1,28 +1,28 @@
- # Web LAB -1 - Hello Project
-2
-3 ## Hakkinda
-4 Bu proje , Web Tasarimi ve Programlama dersi LAB -1 kapsaminda
-5 Vite + React + TypeScript kullanilarak olusturulmustur.
-6
-7 ## Gelistirici
-8 - **Ad Soyad:** [Faruk Aydın]
-9 - **Ogrenci No:** [230541098]
-10
-11 ## Kullanilan Teknolojiler
-12 - React 18
-13 - TypeScript
-14 - Vite
-15
-16 ## Kurulum
-17 ```bash
-18 npm install
-19 ```
-20
-21 ## Calistirma
-22 ```bash
-23 npm run dev
-24 ```
-25 Tarayicida http://localhost:5173 adresini ac.
-26
-27 ## Ekran Goruntusu
-28![Ekran Görüntüsü](screenshot.png)
+# Web LAB-1 - Hello Project
+
+## Hakkinda
+Bu proje, Web Tasarimi ve Programlama dersi LAB-1 kapsaminda
+Vite + React + TypeScript kullanilarak olusturulmustur.
+
+## Gelistirici
+- **Ad Soyad:** Faruk Aydin
+- **Ogrenci No:** 230541098
+
+## Kullanilan Teknolojiler
+- React 18
+- TypeScript
+- Vite
+
+## Kurulum
+```bash
+npm install
+```
+
+## Calistirma
+```bash
+npm run dev
+```
+Tarayicida http://localhost:5173 adresini ac.
+
+## Ekran Goruntusu
+![Ekran Goruntusu](screenshot.png)
