@@ -1,3 +1,4 @@
+import './App.css'
 function App() {
   return (
     <>
@@ -65,7 +66,23 @@ function App() {
             </p>
             <p><strong>Kullanılan Teknolojiler:</strong> React, TypeScript, Vite, Git</p>
           </article>
-
+ <article>
+            <h3>Web LAB-2: Semantik HTML ve Erişilebilirlik</h3>
+            <figure>
+              <img 
+               src="/project2.png"
+                alt="Web LAB-2 projesi ekran görüntüsü - semantik HTML5 ile yapılandırılmış portföy sayfası"
+                width="400"
+                height="250"
+              />
+              <figcaption>LAB-2 Proje Ekran Görüntüsü</figcaption>
+            </figure>
+            <p>
+              Semantik HTML5 etiketleri ve erişilebilirlik standartlarını uygulayarak 
+              profesyonel bir portföy sayfası geliştirdim. Lighthouse testi ile doğrulandı.
+            </p>
+            <p><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, ARIA, Lighthouse</p>
+          </article>
          
         </section>
 
