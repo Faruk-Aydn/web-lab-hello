@@ -1,19 +1,33 @@
+@import './styles/tokens.css';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   width: 100%;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
   line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
   min-width: 320px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 #root {
