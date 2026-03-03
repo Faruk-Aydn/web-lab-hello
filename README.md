@@ -1,29 +1,37 @@
-# Web LAB-1 - Hello Project
+# Web LAB-3 — Kişisel Tanıtım & Portföy Sayfası
 
-## Hakkinda
-Bu proje, Web Tasarimi ve Programlama dersi LAB-1 kapsaminda
-Vite + React + TypeScript kullanilarak olusturulmustur.
+**Branch:** `feature/responsive-layout`
 
-## Gelistirici
-- **Ad Soyad:** Faruk Aydin
-- **Ogrenci No:** 230541098
+## Geliştirici
 
-## Kullanilan Teknolojiler
-- React 18
-- TypeScript
-- Vite
+- **Ad Soyad:** Faruk Aydın
+- **Öğrenci No:** 230541098
+- **Ders:** Web Tasarımı ve Programlama
+
+## Hakkında
+
+Vite + React + TypeScript ile oluşturulmuş kişisel portföy sayfası.
+`feature/responsive-layout` branch'inde mobile-first yaklaşımıyla tam responsive tasarım uygulanmıştır.
+
+**Kullanılan teknolojiler:** React 18 · TypeScript · Vite · Vanilla CSS
 
 ## Kurulum
+
 ```bash
 npm install
-```
-
-## Calistirma
-```bash
 npm run dev
 ```
-Tarayicida http://localhost:5173 adresini ac.
 
-## Ekran Goruntusu
-![Ekran Goruntusu](screenshot.png)
-![Ekran Goruntusu](screenshot2.png)
+Tarayıcıda http://localhost:5173 adresini aç.
+
+## Ekran Görüntüleri
+
+### Masaüstü
+![Masaüstü görünümü](src/screenshots/decstop.png)
+
+### Tablet — LAB-1 & LAB-2
+![LAB-1 ekran görüntüsü](src/screenshots/lab1.png)
+![LAB-2 ekran görüntüsü](src/screenshots/lab2.png)
+
+### Mobil
+![Mobil görünüm](src/screenshots/mobile.png)
