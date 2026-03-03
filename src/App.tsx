@@ -7,6 +7,7 @@ function App() {
       </a>
 
       <header>
+        <a href="/" className="site-title">Faruk Aydın</a>
         <nav aria-label="Ana navigasyon">
           <ul>
             <li><a href="#hakkimda">Hakkımda</a></li>
@@ -18,72 +19,82 @@ function App() {
 
       <main id="main-content">
         <section id="hakkimda">
-          <h1>Faruk Aydın - Kişisel Portföy</h1>
           <h2>Hakkımda</h2>
           
-          <figure>
-            <img 
-              src="/profil.jpg"
-              alt="Faruk Aydın profil fotoğrafı"
-              width="200"
-              height="200"
-            />
-            <figcaption>Faruk Aydın</figcaption>
-          </figure>
+          <div className="about-content">
+            <figure>
+              <img 
+                src="/profil.jpg"
+                alt="Faruk Aydın profil fotoğrafı"
+                width="200"
+                height="200"
+              />
+              <figcaption>Faruk Aydın</figcaption>
+            </figure>
 
-          <p>
-            Merhaba! Ben Faruk Aydın. Yazılım geliştirme alanında kendimi 
-            geliştirmeye devam eden bir öğrenciyim. Web teknolojileri ve 
-            modern frontend frameworkleri ile ilgileniyorum.
-          </p>
+            <div>
+              <p>
+                Merhaba! Ben Faruk Aydın. Yazılım geliştirme alanında kendimi 
+                geliştirmeye devam eden bir öğrenciyim. Web teknolojileri ve 
+                modern frontend frameworkleri ile ilgileniyorum.
+              </p>
 
-          <h3>Kullandığım Teknolojiler</h3>
-          <ul>
-            <li>React</li>
-            <li>TypeScript</li>
-            <li>HTML5 & CSS3</li>
-            <li>Git & GitHub</li>
-          </ul>
+              <h3>Kullandığım Teknolojiler</h3>
+              <ul className="skill-tags" role="list" aria-label="Beceri etiketleri">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Git</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section id="projeler">
           <h2>Projelerim</h2>
 
-          <article>
-            <h3>Web LAB-1: React Giriş Projesi</h3>
-            <figure>
+          <div className="project-grid">
+            <article className="project-card">
               <img 
                 src="/project1.png"
                 alt="Web LAB-1 projesi ekran görüntüsü - React ve Vite ile oluşturulmuş kişisel tanıtım sayfası"
                 width="400"
                 height="250"
               />
-              <figcaption>LAB-1 Proje Ekran Görüntüsü</figcaption>
-            </figure>
-            <p>
-              Vite, React ve TypeScript kullanarak oluşturduğum ilk modern web projesi. 
-              Git iş akışı ve temel React bileşenlerini öğrendim.
-            </p>
-            <p><strong>Kullanılan Teknolojiler:</strong> React, TypeScript, Vite, Git</p>
-          </article>
- <article>
-            <h3>Web LAB-2: Semantik HTML ve Erişilebilirlik</h3>
-            <figure>
+              <h3>Web LAB-1: React Giriş Projesi</h3>
+              <p>
+                Vite, React ve TypeScript kullanarak oluşturduğum ilk modern web projesi. 
+                Git iş akışı ve temel React bileşenlerini öğrendim.
+              </p>
+              <ul className="skill-tags">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Vite</li>
+                <li>Git</li>
+              </ul>
+            </article>
+
+            <article className="project-card">
               <img 
                src="/project2.png"
                 alt="Web LAB-2 projesi ekran görüntüsü - semantik HTML5 ile yapılandırılmış portföy sayfası"
                 width="400"
                 height="250"
               />
-              <figcaption>LAB-2 Proje Ekran Görüntüsü</figcaption>
-            </figure>
-            <p>
-              Semantik HTML5 etiketleri ve erişilebilirlik standartlarını uygulayarak 
-              profesyonel bir portföy sayfası geliştirdim. Lighthouse testi ile doğrulandı.
-            </p>
-            <p><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, ARIA, Lighthouse</p>
-          </article>
-         
+              <h3>Web LAB-2: Semantik HTML ve Erişilebilirlik</h3>
+              <p>
+                Semantik HTML5 etiketleri ve erişilebilirlik standartlarını uygulayarak 
+                profesyonel bir portföy sayfası geliştirdim. Lighthouse testi ile doğrulandı.
+              </p>
+              <ul className="skill-tags">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>ARIA</li>
+                <li>Lighthouse</li>
+              </ul>
+            </article>
+          </div>
         </section>
 
         <section id="iletisim">
