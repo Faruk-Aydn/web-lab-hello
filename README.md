@@ -26,8 +26,7 @@ Tarayıcıda http://localhost:5173 adresini aç.
 
 ## Ekran Görüntüleri
 
-### Masaüstü
-![Masaüstü görünümü](src/screenshots/decstop.png)
+
 
 ### Tablet — LAB-1 & LAB-2
 ![LAB-1 ekran görüntüsü](src/screenshots/lab1.png)
@@ -35,3 +34,7 @@ Tarayıcıda http://localhost:5173 adresini aç.
 
 ### Mobil
 ![Mobil görünüm](src/screenshots/mobile.png)
+### Masaüstü
+![Masaüstü görünümü](src/screenshots/decstop.png)
+### Tablet
+![Tablet görünümü](src/screenshots/tablet.png)
