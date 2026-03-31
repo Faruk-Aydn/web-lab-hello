@@ -9,9 +9,9 @@ interface HeaderProps {
 
 const navLinks = [
   { href: "#hero", label: "Ana Sayfa" },
-  { href: "#about", label: "Hakkımda" },
-  { href: "#projects", label: "Projeler" },
-  { href: "#contact", label: "İletişim" },
+  { href: "#hakkimda", label: "Hakkımda" },
+  { href: "#projeler", label: "Projeler" },
+  { href: "#iletisim", label: "İletişim" },
 ];
 
 export default function Header({ darkMode, toggleDark, page, setPage }: HeaderProps) {
@@ -25,7 +25,7 @@ export default function Header({ darkMode, toggleDark, page, setPage }: HeaderPr
         <a 
           href="#hero" 
           onClick={(e) => { e.preventDefault(); setPage('portfolio'); }}
-          className="text-xl font-bold text-blue-600 no-underline"
+          className="text-xl font-bold text-emerald-600 dark:text-emerald-400 no-underline"
         >
           Faruk Aydın
         </a>
@@ -38,7 +38,7 @@ export default function Header({ darkMode, toggleDark, page, setPage }: HeaderPr
                 <a 
                   href={link.href}
                   onClick={() => setPage('portfolio')}
-                  className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors no-underline font-medium"
+                  className="text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors no-underline font-medium"
                 >
                   {link.label}
                 </a>
@@ -48,8 +48,8 @@ export default function Header({ darkMode, toggleDark, page, setPage }: HeaderPr
               <button
                 onClick={() => setPage('uikit')}
                 className={`px-3 py-1 rounded-md transition-colors cursor-pointer border-0 font-medium text-sm ${page === 'uikit'
-                    ? 'bg-blue-800 text-white dark:bg-blue-600'
-                    : 'text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-800'
+                    ? 'bg-emerald-600 text-white dark:bg-emerald-500'
+                    : 'text-gray-700 dark:text-gray-300 hover:bg-emerald-50 dark:hover:bg-gray-800'
                   }`}
               >
                 UI Kit
@@ -98,7 +98,7 @@ export default function Header({ darkMode, toggleDark, page, setPage }: HeaderPr
               <a 
                 href={link.href}
                 onClick={() => { setMenuOpen(false); setPage('portfolio'); }}
-                className="block py-3 text-gray-600 dark:text-gray-300 hover:text-blue-600 font-medium border-b border-gray-100 dark:border-gray-800 no-underline"
+                className="block py-3 text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 font-medium border-b border-gray-100 dark:border-gray-800 no-underline"
               >
                 {link.label}
               </a>
@@ -108,8 +108,8 @@ export default function Header({ darkMode, toggleDark, page, setPage }: HeaderPr
              <button
                 onClick={() => { setMenuOpen(false); setPage('uikit'); }}
                 className={`w-full text-left py-3 mt-2 rounded-md transition-colors cursor-pointer border-0 font-medium ${page === 'uikit'
-                    ? 'bg-blue-800 text-white dark:bg-blue-600 px-3'
-                    : 'text-gray-700 dark:text-gray-300 px-3 hover:bg-blue-50 dark:hover:bg-gray-800'
+                    ? 'bg-emerald-600 text-white dark:bg-emerald-500 px-3'
+                    : 'text-gray-700 dark:text-gray-300 px-3 hover:bg-emerald-50 dark:hover:bg-gray-800'
                   }`}
               >
                 UI Kit
