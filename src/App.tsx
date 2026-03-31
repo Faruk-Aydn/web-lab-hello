@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react'
 import type { Project, Category, SortField, SortOrder } from "./types/project";
 import { fetchProjects } from "./services/projectService";
 import { applyFilters } from "./utils/projectHelpers";
-import Button from './components/Button'
-import Input from './components/Input'
-import Card from './components/Card'
-import Alert from './components/Alert'
+import Button from './components/ui/Button'
+import Input from './components/ui/Input'
+import Card from './components/ui/Card'
+import Alert from './components/ui/Alert'
 import UIKit from './pages/UIKit'
 
 function App() {
